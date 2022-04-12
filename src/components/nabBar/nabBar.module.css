@@ -1,0 +1,23 @@
+.main{
+    background-color: #fff;
+}
+.tabbar{
+    /* display: flex;
+    justify-content: space-between; */
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    position: relative;
+}
+.navback{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1rem;
+}
+.btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1rem;
+}

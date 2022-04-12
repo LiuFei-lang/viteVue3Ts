@@ -1,0 +1,82 @@
+/**在750设计稿中1em=75px  0.1em=7.5px*/
+.main{
+    font-size: 0.2rem;
+} 
+.page{
+    padding: 0.22rem;
+    background-color: #ccc;
+}
+.checkboxDiv{
+    height: 1rem;
+    line-height: 1rem;
+    border-bottom: 0.016rem solid #ccc;
+}
+.btmBtn{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.15rem 0;
+}
+.delBtn{
+    font-size: 0.4rem;
+    display: inline-block;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    padding: 0 0.25rem;
+    border: 0.016rem solid rgb(54, 127, 211);
+    border-radius: 0.3rem;
+    color: rgb(54, 127, 211);
+}
+
+.h6,.h{
+    background-color: red;
+}
+
+
+
+.fade-enter-form{
+    animation: fade 1s ease-in-out;
+}
+.fade-leave-form{
+    animation: fade 1s ease reverse;
+}
+@keyframes fade {
+    0%{
+        transform:translateX(-100%) ;
+    }
+    80%{
+        transform: translateX(50%);
+    }
+    100%{
+        transform:translateX(0) ;
+    }
+}
+
+
+.h-enter-active,.h-leave-active{
+    transition: 1s ease;
+}
+.h-enter-form,.h-leave-to{
+    transform: translateX(-100%);
+}
+.h-leave-form,.h-enter-to{
+    transform: translateX(0);
+}
+
+
+.proitem{
+    display: inline-block;
+    margin: 0.3rem;
+    background-color: orange;
+    padding: 0 0.3rem;
+}
+.data-enter-active,.data-leave-active{
+    transition: 0.8s ease;position: relative;
+}
+.data-enter-form,.data-leave-to{
+    transform: translateY(1rem);
+    opacity: 0;
+}
+.data-enter-to,.data.leave-form{
+    transform: translateY(0);
+    opacity: 1;
+}

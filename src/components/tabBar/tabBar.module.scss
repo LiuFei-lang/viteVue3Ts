@@ -1,0 +1,15 @@
+.tabBarMain{
+    width: 100vw;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+}
+.tabBarIndex,.tabBarisCheck{
+    text-align: center;
+    padding: 0 0.2rem;
+}
+.tabBarisCheck{
+    color:rgb(26, 29, 209)
+}
